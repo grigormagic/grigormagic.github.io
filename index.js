@@ -31,4 +31,6 @@ function StartStopBtn() {
   }
 }
 
-button.addEventListener("click", StartStopBtn);
+//button.addEventListener("click", StartStopBtn);
+button.addEventListener("mousedown", StartStopBtn);
+button.addEventListener("mouseup", StartStopBtn);
